@@ -1,0 +1,105 @@
+@media(max-width: 1400px){
+    .banner .banner-data h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .stats{
+        margin-bottom: 25px;
+    }
+    .stats h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .stats p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1200px){
+    .banner .col-6{
+        width: 100%;
+    }
+    .banner .col-6:first-child{
+        margin-bottom: 50px;
+    }
+    .banner .banner-data h1 {
+        font-size: 65px;
+        line-height: 80px;
+    }
+    .stats{
+        justify-content: space-around;
+    }
+    .stats{
+        margin-bottom: 45px;
+    }
+    .banner .row .col-6:last-child img {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .property .price {
+        margin-top: 30px;
+    }
+    .property .price>span {
+        font-size: 24px;
+    }
+    .property .prop-card .prop-image {
+        height: 250px;
+    }
+    .property .prop-card .prop-image p {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+}
+
+@media(max-width: 992px){
+    .property .col-4{
+        width: 50%;
+    }
+    .property .prop-card .prop-image img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .banner .banner-data h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .stats p {
+        font-size: 10px;
+    }
+    .stats h2 {
+        font-size: 28px;
+    }
+
+    /* == Welcome == */
+    .welcome .col-6{
+        width: 100%;
+    }
+    .welcome h3 {
+        margin-bottom: 20px;
+    }
+    .welcome p {
+        padding-left: 0px;
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .property .col-4{
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px){
+    .btn {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+    .stats div{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .stats {
+        margin-bottom: 25px;
+    }
+}
